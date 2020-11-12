@@ -125,6 +125,7 @@ table {
 
 input {
   border: none;
+  color: var(--font-color);
 }
 
 input:focus {
