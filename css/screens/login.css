@@ -6,18 +6,20 @@
   position: fixed;
   width: 100%;
   left: 50%;
-  top: 50%;
-  transform: translate(-50%, -150%);
+  top: 20%;
+  transform: translate(-50%, 50%);
+  z-index: 1;
+  background-color: white;
 }
 
 .welcome-header__title {
   font-weight: 600;
-  font-size: 20px;
+  font-size: 25px;
   margin-bottom: 20px;
 }
 
 .welcome-header__text {
-  font-size: 15px;
+  font-size: 20px;
   opacity: 0.4;
   width: 100%;
 }
@@ -25,37 +27,39 @@
 .login-form {
   display: flex;
   flex-direction: column;
-  padding: 0px 20px 50px 20px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
   box-sizing: border-box;
+  position: fixed;
+  width: 50%;
+  bottom: 5%;
+  left: 50%;
+  bottom: 5%;
+  transform: translate(-50%, -5%);
+  z-index: 0;
+  background-color: white;
 }
 
 .login-form__input {
   padding: 10px 0px;
-  background-color: var(--back-color);
 }
 
 .login-form__input::placeholder {
   opacity: 0.9;
-  color: var(--font-color);
+  font-size: 15px;
 }
 
 .login-form__btn {
   padding: 10px 0px;
   margin-bottom: 5px;
-  background-color: #14a54d;
   margin-top: 10px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 .login-form__sign-up {
-  display: block;
-  text-align: center;
-  font-size: 12px;
-  background-color: #14a54d;
   padding: 10px 0px;
-  font-weight: 600;
+  margin-bottom: 5px;
+  border-radius: 5px;
+  font-size: 15px;
 }
 
 .login-form__link {
