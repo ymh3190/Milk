@@ -20,3 +20,35 @@
     font-size: 9px;
   }
 }
+
+@media screen and (max-width: 568px) and (max-height: 320px) {
+  .iPhone-se .welcome-header {
+    top: 15%;
+  }
+
+  .iPhone-se .welcome-header__title {
+    font-size: 14px;
+  }
+
+  .iPhone-se .welcome-header__text {
+    font-size: 10px;
+  }
+
+  .iPhone-se .login-form__input {
+    padding: 5px 0px;
+  }
+
+  .iPhone-se .login-form__input::placeholder {
+    font-size: 9px;
+  }
+
+  .iPhone-se .login-form__btn,
+  .iPhone-se .login-form__sign-up {
+    font-size: 10px;
+    padding: 5px 0px;
+  }
+
+  .iPhone-se .login-form__link {
+    font-size: 7px;
+  }
+}
