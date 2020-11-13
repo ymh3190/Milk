@@ -31,7 +31,7 @@
   }
 
   .iPhone-se .welcome-header__text {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   .iPhone-se .login-form__input {
@@ -39,7 +39,7 @@
   }
 
   .iPhone-se .login-form__input::placeholder {
-    font-size: 9px;
+    font-size: 11px;
   }
 
   .iPhone-se .login-form__btn,
@@ -49,6 +49,6 @@
   }
 
   .iPhone-se .login-form__link {
-    font-size: 7px;
+    font-size: 9px;
   }
 }
