@@ -1,0 +1,27 @@
+.main-screen {
+  margin-top: 80px;
+  padding: 5px var(--horizontal-space);
+  margin-bottom: 10px;
+}
+
+.main-screen__ad {
+  position: relative;
+}
+
+.main-screen__ad img {
+  width: 100%;
+  height: 100px;
+}
+
+.main-screen__ad span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+  border-radius: 10px;
+  background-color: tomato;
+  color: white;
+}
