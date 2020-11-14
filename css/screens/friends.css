@@ -4,7 +4,7 @@
   margin-bottom: 10px;
 }
 
-.main-screen__ad {
+/* .main-screen__ad {
   position: relative;
 }
 
@@ -24,4 +24,57 @@
   border-radius: 10px;
   background-color: tomato;
   color: white;
+} */
+
+.friends-screen__birthday {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  margin: 15px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.friends-screen__birthday-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px;
+}
+
+.friends-screen__birthday-header i {
+  opacity: 0.5;
+}
+
+.birthday-component {
+  display: flex;
+  justify-content: space-between;
+}
+
+.birthday-component__column {
+  display: flex;
+  align-items: center;
+}
+
+.birthday-component_icon {
+  width: 50px;
+  height: 50px;
+  border-radius: 30%;
+  margin-right: 15px;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 32px;
+  color: white;
+}
+
+.birthday-component__text {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.birthday-component__column:last-child {
+  opacity: 0.5;
+}
+
+.birthday-component__column:last-child span {
+  margin-right: 5px;
 }

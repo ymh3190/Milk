@@ -21,3 +21,7 @@
 .screen-header__link:hover {
   cursor: not-allowed;
 }
+
+.screen-header__link:last-child:hover {
+  cursor: pointer;
+}
