@@ -12,3 +12,22 @@
   display: flex;
   justify-content: space-between;
 }
+
+.nav__link {
+  position: relative;
+}
+
+.nav__notification {
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: tomato;
+  color: white;
+  font-size: 10px;
+  position: absolute;
+  left: 15px;
+  bottom: 10px;
+}

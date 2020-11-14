@@ -1,0 +1,12 @@
+.screen-header__hashtags {
+  box-sizing: initial;
+  justify-content: stretch;
+}
+
+.screen-header__hashtag {
+  padding-right: 10px;
+}
+
+.screen-header__hashtag:nth-child(2) {
+  font-weight: 600;
+}
