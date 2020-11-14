@@ -51,6 +51,13 @@
   color: black;
 }
 
+.chat-component_img {
+  width: 60px;
+  height: 60px;
+  border-radius: 30%;
+  margin-right: 15px;
+}
+
 .chat-component_icon div {
   background-color: #3b1e21;
   width: 40px;
@@ -73,6 +80,7 @@
 
 .chat-component__subtitle {
   font-size: 14px;
+  opacity: 0.5;
 }
 
 .chat-component__column:last-child {
