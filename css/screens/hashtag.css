@@ -1,4 +1,4 @@
-.hashtag-nth {
+/* .hashtag-nth {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -19,7 +19,7 @@
 .hashtag-edit div {
   width: 20px;
   height: 10px;
-}
+} */
 
 .hashtag-screen__header {
   display: flex;

@@ -1,3 +1,9 @@
+.main-screen {
+  margin-top: 80px;
+  padding: 5px var(--horizontal-space);
+  margin-bottom: 10px;
+}
+
 .friends-screen__birthday {
   border-top: 1px solid rgba(0, 0, 0, 0.1);
   margin: 15px 0px;
