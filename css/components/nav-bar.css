@@ -18,16 +18,18 @@
 }
 
 .nav__notification {
-  width: 20px;
-  height: 20px;
-  border-radius: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: tomato;
-  color: white;
-  font-size: 10px;
   position: absolute;
   left: 15px;
   bottom: 10px;
+}
+
+.nav__badge-sm {
+  width: 7px;
+  height: 7px;
+  border-radius: 7px;
+  display: flex;
+  background-color: tomato;
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
 }

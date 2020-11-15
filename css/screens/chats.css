@@ -77,6 +77,17 @@
   opacity: 0.5;
 }
 
+.chat-component:first-child .chat-component__column:last-child span {
+  margin-bottom: 5px;
+}
+
 .chat-component__column:last-child {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.chat-component__column:last-child span {
   opacity: 0.5;
 }

@@ -18,6 +18,10 @@
   margin-left: 15px;
 }
 
+.screen-header__link {
+  position: relative;
+}
+
 .screen-header__link:hover {
   cursor: not-allowed;
 }

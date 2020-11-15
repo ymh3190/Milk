@@ -1,6 +1,6 @@
 .alt-screen-header {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: fixed;
   width: 100%;
@@ -10,7 +10,29 @@
   background-color: white;
 }
 
+.alt-screen__column {
+  width: 33%;
+}
+
+.alt-screen__column:first-child {
+  margin-right: auto;
+}
+
 .alt-screen-header__title {
   font-weight: 600;
   font-size: 22px;
+}
+
+.alt-screen__column:nth-child(2) {
+  text-align: center;
+}
+
+.alt-screen__column:last-child {
+  margin-left: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.alt-screen__column:last-child i {
+  margin-left: 20px;
 }
