@@ -20,8 +20,8 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* .main-screen {
+.main-screen {
   margin-top: 80px;
   padding: 5px var(--horizontal-space);
   margin-bottom: 10px;
-} */
+}

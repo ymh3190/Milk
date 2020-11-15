@@ -1,4 +1,4 @@
-/* .hashtag-nth {
+.hashtag-nth {
   display: flex;
   justify-content: left;
   align-items: center;
@@ -13,13 +13,13 @@
 }
 
 .hashtag__link {
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .hashtag-edit div {
   width: 20px;
   height: 10px;
-} */
+}
 
 .hashtag-screen__header {
   display: flex;
