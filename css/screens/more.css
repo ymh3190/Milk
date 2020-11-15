@@ -56,3 +56,27 @@
   margin-left: 5px;
   opacity: 0.2;
 }
+
+.icon-row {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+  padding: 10px 0px;
+}
+
+.icon-row__icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-row__icon i {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.icon-row__icon span {
+  display: flex;
+  justify-content: center;
+  width: 70px;
+}

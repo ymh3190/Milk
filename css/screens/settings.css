@@ -1,0 +1,25 @@
+.settings-list {
+  margin: 10px 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+.setting-list {
+  padding: 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.setting-list__column:first-child i {
+  width: 16px;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.setting-list__column:last-child {
+  opacity: 0.5;
+}
+
+.setting-list:nth-child(3) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,16 @@
+.alt-screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  top: 5%;
+  padding: var(--horizontal-space);
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.alt-screen-header__title {
+  font-weight: 600;
+  font-size: 22px;
+}
