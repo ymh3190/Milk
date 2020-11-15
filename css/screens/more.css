@@ -1,0 +1,19 @@
+.user-component__title {
+  margin-bottom: 10px;
+}
+
+.user-component__subtitle {
+  font-size: 14px;
+  opacity: 0.5;
+}
+
+.user-component__column:last-child span {
+  width: 50px;
+  height: 20px;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
