@@ -37,7 +37,7 @@
   height: 60px;
   border-radius: 30%;
   margin-right: 15px;
-  background-color: #fae100;
+  background-color: var(--yellow);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -59,7 +59,7 @@
   border-radius: 20px;
   font-size: 14px;
   font-weight: 600;
-  color: #fae100;
+  color: var(--yellow);
   display: flex;
   justify-content: center;
   align-items: center;

@@ -24,6 +24,7 @@
 .message-row {
   display: flex;
   width: 100%;
+  margin-top: 20px;
 }
 
 .message-row_icon {
@@ -50,4 +51,94 @@
   justify-content: center;
   align-items: center;
   border-bottom-left-radius: 0px;
+}
+
+.message__author {
+  display: block;
+  margin-bottom: 10px;
+  opacity: 0.5;
+  font-weight: 600;
+}
+
+.message__info {
+  display: flex;
+  align-items: flex-end;
+}
+
+.message__bubble {
+  background-color: white;
+  padding: 10px;
+  border-radius: 20px;
+  margin-right: 5px;
+}
+
+.message__bubble h2 {
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.message__time {
+  opacity: 0.5;
+}
+
+.message-row--own {
+  justify-content: flex-end;
+}
+
+.message-row--own .message__bubble {
+  border-top-right-radius: 0px;
+  margin-right: 0px;
+  margin-left: 5px;
+}
+
+.message-row--own .message__info {
+  flex-direction: row-reverse;
+}
+
+.reply {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.reply__column:first-child {
+  width: 10%;
+}
+
+.reply__column:last-child {
+  position: relative;
+  width: 90%;
+}
+
+.reply__column:last-child input {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 100%;
+  border-radius: 30px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+}
+
+.reply__column:last-child > i {
+  position: absolute;
+  right: 40px;
+  bottom: 4.5px;
+}
+
+.reply__column:last-child button {
+  position: absolute;
+  right: 0;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  border-radius: 25px;
+  background-color: var(--yellow);
 }
