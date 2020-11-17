@@ -19,6 +19,57 @@
   .iPhone-se .login-form__link {
     font-size: 9px;
   }
+
+  .iPhone-se .birthday-component__text {
+    font-size: 14px;
+  }
+
+  .iPhone-se h2 {
+    font-size: 16px;
+  }
+
+  .iPhone-se .chat-component__subtitle {
+    font-size: 11px;
+  }
+
+  .iPhone-se .chat-component__column:last-child {
+    font-size: 11px;
+  }
+
+  .iPhone-se .badge {
+    width: 15px;
+    height: 15px;
+    font-size: 11px;
+  }
+
+  .iPhone-se .user-component__subtitle {
+    font-size: 11px;
+  }
+
+  .iPhone-se .hashtag-screen__title {
+    font-size: 13px;
+  }
+
+  .iPhone-se .hashtag-screen__link {
+    display: flex;
+  }
+
+  .iPhone-se .hashtag-screen__link a {
+    display: flex;
+    font-size: 10px;
+  }
+
+  .iPhone-se .user-component__column:last-child span {
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+    padding: 0px;
+  }
+
+  .iPhone-se .pay__column:first-child {
+    width: 90px;
+    height: 30px;
+  }
 }
 
 @media screen and (max-width: 568px) and (max-height: 320px) {
