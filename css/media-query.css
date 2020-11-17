@@ -70,6 +70,29 @@
     width: 90px;
     height: 30px;
   }
+
+  .iPhone-se .message-row_icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 7px;
+    margin-right: 7px;
+  }
+
+  .iPhone-se .message-row_icon div {
+    width: 20px;
+    height: 15px;
+    font-size: 7px;
+  }
+
+  .iPhone-se .message__author,
+  .iPhone-se .message__bubble h2 {
+    font-size: 12px;
+  }
+
+  .iPhone-se .message__bubble,
+  .iPhone-se .message__time {
+    font-size: 10px;
+  }
 }
 
 @media screen and (max-width: 568px) and (max-height: 320px) {
